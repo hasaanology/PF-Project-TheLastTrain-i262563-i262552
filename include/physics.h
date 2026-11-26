@@ -18,5 +18,6 @@ void applyScoreDelta(int& score, int deltaScore);
 bool hasItem(const char inventory[MAX_INVENTORY_CAPACITY], int inventoryCount, char itemSymbol);
 bool addItem(char inventory[MAX_INVENTORY_CAPACITY], int& inventoryCount, char itemSymbol);
 bool removeItem(char inventory[MAX_INVENTORY_CAPACITY], int& inventoryCount, char itemSymbol);
+bool isEmergencyLift2Trip(char connType, bool lift2Operational);
 
 #endif // PHYSICS_H
